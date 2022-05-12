@@ -1,0 +1,31 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+button {
+    margin: 0.25rem !important;
+}
+
+span {
+    margin: 0.5rem !important;
+}
+
+.table-search-bar-container {
+    width: 100%;
+    display: flex;
+    alignItems: flex-end;
+    justifyContent: space-around;
+    margin: 0.5rem
+}
