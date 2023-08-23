@@ -1,3 +1,4 @@
+# Test branch
 # Things I missed (because of time)
 
 1. I am rendering Home planet URL instead of planet name as I ran into rate limiting from API side (Setting  isFetchable to true in App.tsx{ field: CharacterFields.homeworld, headerName: 'Home World', isFetchable: false } will render the intended logic which is the only piece I skipped unit testing because of time constraints)
